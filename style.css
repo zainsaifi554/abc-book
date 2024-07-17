@@ -1,0 +1,47 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+h2{
+    text-shadow: 10px -18px 25px,
+                 rgb(255, 255, 255) -10px 18px 25px;
+    text-align: center;
+}
+
+body{
+    
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    
+    background-image: url(./ae2280227afbc428000abc73d1c942ae.png);
+     
+     font-size: 40px
+     
+    
+ }
+   
+    .fixed{
+        font-feature-settings: "abvm";
+        color: aliceblue;
+        height: 60px;
+        width: 100px;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        position: fixed;
+        top: 350px;
+        right: 20px;
+        border-bottom-left-radius: 50%;
+        visibility: 40%;
+        
+        }
+
+       .fixed:hover{
+        transition: 1s;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+       }
+
+       
